@@ -1,7 +1,9 @@
 # DevOps - GabrielSBrito
-# Aluno: Gabriel
-# Faculdade: IMPACTA
-# Data: 18/08/2017
+ # Gabriel Silva Brito RA:1700678
+ # Stefany Rodrigues RA:1700517
+ # Everton Alauk RA: 1700517
+ # Douglas Santos RA:1600256
+ # Leonardo Gola RA:1700657 
 
 Primeiro repositório criado na aula de DevOps
 Nova linha 1
