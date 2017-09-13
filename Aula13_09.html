@@ -1,2 +1,53 @@
-Olá DevOps
-Alteração apos a configuração 
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title> FORMULÁRIOS</title>
+	<head>
+	<body>
+		<h3> Formulários</h3>
+		<!--  Direciona para local onde passa informações QUEM VAI RECEBER ESSA INFORMAÇÃO -->
+		<form action="servidor" method="POST"> <!-- GET: Deixa as informações no link POST: Esconde as informações -->
+			<label> Digite o Nome: </label> <!--Qualquer texto -->
+			<input type="text"  name="nome_user"   id="n_user"    maxlength="3"      placeholder="Digite seu Nome"   size="15"          required="true"                          > <br/>
+			<!-- Tipo de txto   Identificador      Identificador  Nº de caracteres   Texto Informativo (cinza)       Tamanho da Caixa   Obrigatório Preencher           readonly        \  disabled   -->
+			
+			<label> Nome2: </label>
+			<input type="password" name="senha_user" id="s_user"  maxlength="8"> <br/>
+			<!--   Tipo de txto    Identificador  |  Identificador Numero de caracteres -->
+			<!-- <input type="textarea"> -->
+			<label> OBS: </label> <br/>
+			<textarea> Digite Algo ai </textarea> <br/> <!-- textarea serve como um campo para digitação de OBS -->
+			
+			<label> Estado2352: </label><br/>
+			<select>
+				<option value="">  </option>                 <!-- Option serve como as opçoes de escolha dessa caixa Estado -->
+				<option value="SP"> São Paulo </option>
+				<option value="RJ"> Rio de Janeiro </option>
+				<option value="MG"> Minas Gerais </option>	 
+			</select>
+			
+			<br/>
+			<label> Selecione a Disciplinaaaaaaaaaaa: </label> <br/>
+			<input type="checkbox" value="TecW"> TecWeb  <!-- Caixa de CHECK --><br/>
+			<input type="checkbox" value="DevOp"> DevOps <br/>
+			<input type="checkbox" value="Eng"> Engenharia de Software <br/><br/>
+			<br/>
+			
+			
+			<label> Selecione uma LINGUAGEM: </label> <br/>
+			<input type="radio" name="opcao" value="op1"> Java  <!-- Caixa para marcar BOLINHA --><br/>
+			<input type="radio" name="opcao" value="op2"> Python <br/>
+			<input type="radio" name="opcao" value="op3"> C#<br/><br/>
+			<br/>
+			
+			<label> E-mail: </label> <br/>
+			<input type="email" name="email" >
+			
+			<input type="submit" value="Enviar Agora!"> <br/>  <!-- Envia oara algum lugar -->
+			<input type="reset" value="Limpar"> <br/>		   <!-- Limpa os dados -->
+			<button onclick="submit" value="Enviar"> Enviar </button> <!-- BUTTON serve para Poder executar algo à partir de eventos do click -->
+			<!--    Executar Scrips dentro do site       -->
+		</form>
+	</body>
+</html>
